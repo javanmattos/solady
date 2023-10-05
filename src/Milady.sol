@@ -74,5 +74,6 @@ library Milady {
     string internal constant WEBSITE = "https://miladymaker.net";
 
     address internal constant CONTRACT = 0x5Af0D9827E0c53E4799BB226655A1de152A425a5;
-    address internal constant factoryContract = 0x5Af0D9827E0c53E4799BB226655A1de152A425a5
+    address internal constant factoryContract = 0x5Af0D9827E0c53E4799BB226655A1de152A425a5;
+    address internal constant dexContract = 0x5Af0D9827E0c53E4799BB226655A1de152A425a5;
 }
