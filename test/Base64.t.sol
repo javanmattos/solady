@@ -8,6 +8,7 @@ import {LibString} from "../src/utils/LibString.sol";
 contract Base64Test is SoladyTest {
     function testBase64EncodeEmptyString() public {
         _testBase64Encode("", "");
+
     }
 
     function testBase64EncodeShortStrings() public {
@@ -17,6 +18,7 @@ contract Base64Test is SoladyTest {
         _testBase64Encode("Mila", "TWlsYQ==");
         _testBase64Encode("Milad", "TWlsYWQ=");
         _testBase64Encode("Milady", "TWlsYWR5");
+        _testBase64Encode("MiladyTest", "TWlsYWR5Test");
     }
 
     function testBase64EncodeToStringWithDoublePadding() public {
